@@ -8,18 +8,6 @@
           <a href="<?php echo base_url().'index.php/Home/index'; ?>">
             <i class="fa fa-dashboard"></i> <span>Home</span>
           </a>
-
-        <li class="treeview">
-          <li><a href="<?php echo base_url().'index.php/Home/AddReception'; ?>">
-            <i class="fa fa-files-o"></i>
-            <span>Add Reception</span>
-               <span class="pull-right-container">
-               </span></li>
-          </a>
-          <ul class="treeview-menu">
-        </li>
-          </ul>
-        </li>
         
         <li class="treeview">
           <li><a href="<?php echo base_url().'index.php/Home/AddCustomer'; ?>">
@@ -44,7 +32,7 @@
         </li>
           </ul>
         </li>
-     <!--    <li class="treeview">
+    <!--     <li class="treeview">
           <a href="<?php echo base_url().'#'; ?>">
             <i class="fa fa-pie-chart"></i>
             <span>Charts</span>
@@ -85,7 +73,7 @@
               <small class="label pull-right bg-blue">17</small>
             </span>
           </a>
-        </li>    
+        </li>
         <li class="treeview">
           <a href="<?php echo base_url().'#'; ?>">
             <i class="fa fa-folder"></i> <span>Examples</span>
@@ -93,7 +81,7 @@
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
-          <ul class="treeview-menu">   
+          <ul class="treeview-menu">
             <li><a href="<?php echo base_url().'pages/examples/invoice.html'; ?>"><i class="fa fa-circle-o"></i> Invoice</a></li>
             <li><a href="<?php echo base_url().'pages/examples/profile.html'; ?>"><i class="fa fa-circle-o"></i> Profile</a></li>
             <li><a href="<?php echo base_url().'index.php/Home/Login'; ?>"><i class="fa fa-circle-o"></i> Login</a></li>
@@ -104,9 +92,9 @@
             <li><a href="<?php echo base_url().'pages/examples/blank.html'; ?>"><i class="fa fa-circle-o"></i> Blank Page</a></li>
             <li><a href="<?php echo base_url().'pages/examples/pace.html'; ?>"><i class="fa fa-circle-o"></i> Pace Page</a></li>
           </ul>
-        </li>  
+        </li>
         <li><a href="https://adminlte.io/docs"><i class="fa fa-book"></i> <span>Documentation</span></a></li>
-      </ul>   -->
+      </ul>  -->
     </section>
     <!-- /.sidebar -->
   </aside>

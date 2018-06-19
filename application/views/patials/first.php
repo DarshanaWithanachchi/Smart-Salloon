@@ -1,3 +1,10 @@
+<?php 
+if (!($this->session->userdata('loggedin'))) {
+  redirect('Home/Login');
+}
+
+ ?>
+
 <!DOCTYPE html>
 <html>
 <head>

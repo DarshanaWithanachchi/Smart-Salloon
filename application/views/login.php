@@ -9,7 +9,15 @@
 		<h2 class="head">Login</h2>
 	</div>
 
-	<form method="POST" action="register.php">
+<?php echo form_open('Login/LoginUser'); ?>
+
+<?php echo validation_errors(); ?>
+
+
+<?php if ($this->session->flashdata('msg')) {
+	echo "<h3>".$this->session->flashdata('msg')."</h3>";
+} ?>
+
 		<div class="input-group">
 			<label>Username</label>
 			<input type="text" name="username">
@@ -17,15 +25,13 @@
 
 		<div class="input-group">
 			<label>Password</label>
-			<input type="text" name="password">
+			<input type="password" name="password">
 		</div>
 
 		<div class="input-group">
 			<button type="submit" name="login" class="btn">Login</button>
 		</div>
 
-		<p>Not Yet a Member ? <a href="<?php echo base_url().'index.php/Home/Register' ?>">Sign Up</a></p>
-	</form>
-
+ <?php echo form_close(); ?>
 </body>
 </html>
